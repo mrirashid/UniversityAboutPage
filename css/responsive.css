@@ -1,0 +1,352 @@
+/*XL Device :1200px */
+@media (min-width: 1450px) and (max-width: 1600px) {
+}
+@media (min-width: 1200px) and (max-width: 1449px) {
+}
+
+/*LG Device :992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*MD Device :768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-25 {
+    width: 50%;
+  }
+  h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  header {
+    margin: 10px 0;
+  }
+  header h3 {
+    font-size: 15px;
+  }
+  header .menu a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 2px;
+    font-size: 12px;
+    transform: 0.3s ease;
+  }
+  header .login a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #0097e6;
+    transform: 0.3s ease;
+  }
+  .home-container {
+    margin-top: 10px;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    padding-top: 20vh;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .home-container::before {
+    content: "";
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: 0;
+  }
+  .home-container h2 {
+    color: #0097e6;
+    font-size: 45px;
+  }
+  .home-container .heroBottom {
+    color: #fff;
+    font-size: 16px;
+  }
+  .history {
+    padding: 60px 0;
+  }
+  .history img {
+    width: 450px;
+    height: 250px;
+  }
+  .choose {
+    padding-bottom: 50px;
+  }
+  .choose .col-50 {
+    margin-left: -10px;
+  }
+  .choose .choose-content {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .choose .choose-content p {
+    padding: 0px 250px;
+  }
+  .choose .col-50 img {
+    width: 80%;
+    height: 50%;
+  }
+  .choose .excellent {
+  }
+  .choose .excellent .content {
+    padding-top: 85px;
+    margin-left: -80px;
+  }
+  .choose .excellent .content h5 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: grey;
+  }
+  .choose .excellent .content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+  }
+  .choose .excellent .content p {
+    font-size: 12px;
+    color: grey;
+  }
+  .choose .outstanding .content {
+    padding-top: 80px;
+  }
+  .choose .outstanding img {
+    margin-left: -80px;
+  }
+  .choose .outstanding .content h5 {
+    font-size: 13px;
+  }
+  .choose .outstanding .content h4 {
+    font-size: 20px;
+  }
+  .choose .outstanding .content p {
+    font-size: 12px;
+  }
+  .choose .world .content {
+    padding-top: 85px;
+    margin-left: -80px;
+  }
+  .choose .world .content {
+    padding-top: 50px;
+  }
+  .choose .world .content h5 {
+    font-size: 13px;
+  }
+  .choose .world .content h4 {
+    font-size: 20px;
+  }
+  .choose .world .content p {
+    font-size: 12px;
+    color: grey;
+  }
+  .question {
+    padding-bottom: 50px;
+  }
+  .question .question-content {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .question .question-content p {
+    padding: 0px 0px;
+  }
+}
+
+/*Extra Small Device */
+@media (max-width: 767px) {
+}
+
+/*SM Small Device :550px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .col-25 {
+    width: 100%;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  h3 {
+    font-size: 12px;
+    padding-bottom: 4px;
+    text-align: left;
+  }
+  p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  header {
+    margin: 10px 0;
+  }
+  header h3 {
+    font-size: 14px;
+  }
+  header .menu a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 10px;
+    transform: 0.3s ease;
+  }
+  header .login a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 10px;
+    color: #0097e6;
+    transform: 0.3s ease;
+  }
+  .home-container {
+    margin-top: 10px;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    padding-top: 20vh;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .home-container::before {
+    content: "";
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: 0;
+  }
+  .home-container h2 {
+    color: #0097e6;
+    font-size: 30px;
+  }
+  .home-container .heroBottom {
+    color: #fff;
+    font-size: 12px;
+  }
+  .history {
+    padding: 20px 0;
+  }
+  .history img {
+    width: 350px;
+    height: 150px;
+  }
+  .choose {
+    padding-bottom: 20px;
+  }
+  .choose .choose-content p {
+    padding: 0;
+    text-align: left;
+  }
+  .choose .choose-content {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  .choose .col-50 img {
+    width: 400px;
+    height: 50%;
+  }
+  .choose .excellent .content {
+    padding-top: 25px;
+  }
+  .choose .excellent .content h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: grey;
+  }
+  .choose .excellent .content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+  }
+  .choose .excellent .content p {
+    font-size: 10px;
+    color: grey;
+  }
+  .choose .outstanding .content {
+    padding-top: 20px;
+  }
+  .choose .outstanding .content h5 {
+    font-size: 12px;
+  }
+  .choose .outstanding .content h4 {
+    font-size: 16px;
+  }
+  .choose .outstanding .content p {
+    font-size: 10px;
+  }
+  .choose .world .content {
+    padding-top: 20px;
+  }
+  .choose .world .content {
+    padding-top: 20px;
+  }
+  .choose .world .content h5 {
+    font-size: 12px;
+  }
+  .choose .world .content h4 {
+    font-size: 16px;
+  }
+  .choose .world .content p {
+    font-size: 10px;
+    color: grey;
+  }
+  .question {
+    padding-bottom: 20px;
+  }
+  .question .question-content {
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .question .question-content p {
+    padding: 0;
+    text-align: left;
+  }
+  .service .service-content p {
+    padding: 0;
+    text-align: left;
+  }
+  .mail form button {
+    margin-top: 20px;
+  }
+  .footer {
+    padding-bottom: 20px;
+  }
+  .footer h4 {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .footer .link-left {
+    display: block;
+  }
+  .footer .footer-link a {
+    text-decoration: none;
+    color: #0097e6;
+    padding-bottom: 5px;
+    display: block;
+    position: relative;
+  }
+  .footer .link-right {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  .footer h5 {
+    font-size: 16px;
+  }
+  .footer span {
+    color: gray;
+    font-size: 12px;
+  }
+  .footer p {
+    color: gray;
+    font-size: 11px;
+    padding-bottom: 7px;
+  }
+}
